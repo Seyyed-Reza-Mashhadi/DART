@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: dart
+Version: 0.0.1
+Summary: borehole nmr utilities
+Author: Mason Andy Kass; Seyyed Reza Mashhadi
+Author-email: srm@geo.au.dk
+License: MIT?
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+apsu NMR processing scripts in python
+
+In order to use this package, open the command line and navigate to this folder that contains the readme.
+In the commandline, enter the following:
+
+python setup.py develop
+
+This will install the package to this python version.
+
+A second thing you can do, that is pretty convenient,
+is launch the anaconda prompt from right clicking, follow the steps here:
+https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea
