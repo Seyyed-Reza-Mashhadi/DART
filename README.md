@@ -68,6 +68,17 @@ DART (Data Analysis & Representation Toolkit) is a Python-based framework for ex
     </td>
   </tr>
 </table>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/86567673-d7a4-4658-835d-f52981981859" width="450" alt="Ternary_plot" style="border: 2px solid black;">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ce1aaefe-c208-4356-a3cb-26adfbade705" width="400" alt="porosity_vs_T2ML_Geo_Simple" style="border: 2px solid black;">
+    </td>
+  </tr>
+</table>
+
 
 ### Other Functions / Tools
 - **Purpose:** Standalone tools for specialized operations
