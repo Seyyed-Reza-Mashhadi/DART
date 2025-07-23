@@ -29,7 +29,6 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 | `geo_label_SpinEchoDecay()`| Creates spin echo decay dataset with geology labels     |
 | `export_kml()`             | Generates KML file with embedded PNG image of borehole logplots so that the borehole logs can be seen by hovering or selecting the borehole on Google Earth
 
-<br><br>
 <p align="center"><em>Example of a logplot</em></p> 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/630ed34b-e852-469b-9de0-11e70bc858e0" width="900">
@@ -81,7 +80,7 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 | `create_avg_BNMR_shape_files()`    | Exports averages of BNMR parameters as shapefiles for spatial data analysis                                                                        |
 | `get_azimuth()`                    | Calculates profile orientation from coordinates       |
 | `remove_duplicates()`              | Cleans duplicate measurements in BNMR dataframe       |
-| `section_plot()`                   | Creates cross-sections of numerical or categorical variables (e.g., BNMR or geology data). Can be used interactively or with predefined coordinates. Note that there are other section plotting functions built upon this function for especific purposes                                                                           |
+| `section_plot()`                   | Creates cross-sections of numerical or categorical variables (e.g., BNMR or geology data). Can be used interactively or with predefined coordinates. Note that there are other section plotting functions built upon this function for especific purposes             | 
 
 <p align="center"><em>Example of generated average shape files, and created sections from BNMR data</em></p> 
 <table align="center">
@@ -94,7 +93,6 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
     </td>
   </tr>
 </table>
-
 
 ## 🎓 Funding
 DART is a tool developed as part of my PhD research in Geophysics at the Hydrogeophysics Group (HGG), Department of Geoscience, Aarhus University. My PhD was supported by funding from the Independent Research Fund Denmark (grant number: 0171-00056B).
