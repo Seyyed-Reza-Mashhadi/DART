@@ -86,10 +86,10 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 <table align="center">
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/322328d4-1e96-4e73-bce8-34106dd7175d" width="400" style="border: 2px solid black;">
+      <img src="https://github.com/user-attachments/assets/322328d4-1e96-4e73-bce8-34106dd7175d" width="450" style="border: 2px solid black;">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/76106aaa-0e6d-49e1-8138-5863933cb025" width="350" style="border: 2px solid black;">
+      <img src="https://github.com/user-attachments/assets/76106aaa-0e6d-49e1-8138-5863933cb025" width="300" style="border: 2px solid black;">
     </td>
   </tr>
 </table>
