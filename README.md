@@ -1,9 +1,7 @@
 # Data Analysis & Representation Toolkit (DART) for Borehole NMR Data
 ## 🔍 Overview
 
-DART (Data Analysis & Representation Toolkit) is a Python-based data science framework for statistical modeling, visualization, geospatial and geological integration, and data interpretation of Borehole Nuclear Magnetic Resonance (BNMR) data collected using Vista Clara logging systems. Using inverted NMR text files as input, it supports tasks such as statistical analysis, curve fitting for improved hydraulic conductivity (K) estimation, and exploratory evaluation of BNMR parameter variations related to geological units.
-
-The toolkit offers a unified workflow that integrates NMR measurements with borehole coordinates and geological logs, generating geospatial outputs such as shapefiles and PNG-embedded KML files for use in GIS platforms. Through borehole log plotting, statistical analysis, interactive cross-section views, and geo-labeled datasets, DART bridges hydrogeophysics, geology, and GIS for reproducible, domain-specific subsurface analysis.
+DART (Data Analysis & Representation Toolkit) is a Python-based framework for exploratory data analysis, curve fitting to improve hydraulic conductivity (K) estimation, geospatial and geological integration, and interpretation of Borehole Nuclear Magnetic Resonance (BNMR) data. Working with text files containing inverted NMR data by Vista Clara's JavelineProPlus program, it integrates borehole measurements with spatial coordinates and geological logs, and generates geospatial outputs such as shapefiles and PNG-embedded KML files for use in GIS platforms. Through borehole log plotting, statistical graphics, interactive cross-sections, and geo-labeled datasets, DART bridges hydrogeophysics, geology, and GIS for reproducible, domain-specific subsurface analysis.
 
 ## 🌟 Features & Functionality
 - 📈 **Statistical Modeling:** Statistical distribution analysis, model calibration for improved hydraulic conductivity (K) estimation
