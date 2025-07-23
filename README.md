@@ -1,44 +1,30 @@
-# dart (Data Analysis and Representation Toolkit) for Borehole NMR Data
+# Data Analysis & Representation Toolkit (dart) for Borehole NMR Data
+
 Comprehensive Borehole NMR data analysis tool for Vista Clara BNMR systems
 
 ## 🔍 Overview
 DART is a powerful Python toolkit designed for end-to-end processing, visualization, and interpretation of borehole nuclear magnetic resonance (BNMR) data from Vista Clara systems. It integrates geospatial analysis, statistical modeling, and geological interpretation into a unified workflow for comprehensive subsurface characterization.
 
 ## 🌟 Key Features & Functionality
-
 - Geospatial Analysis: Coordinate handling, profile azimuth calculation, KML/shapefile exports
 - Statistical Modeling: Hydraulic conductivity (K) calibration, statistical distribution analysis
 - Geological Integration: Lithology labeling, ternary plots of water fractions
+- Advanced Visualization Engine
 - Automated Reporting: LAS file exports, Excel statistical reports, publication-ready figures
 
 ## 🧩 Architecture
-### Data Class
+#### Data Class
 - Handles borehole-based data management.
 - Input: Receives borehole names (or identifiers) to load and manage related data.
-### Statistics Class
+#### Statistics Class
 - Performs dataset-based statistical modeling.
 - Input: Takes a dataframe (e.g., pandas DataFrame) representing the dataset for analysis.
-### Other Functions / Tools
+#### Other Functions / Tools
 - Utility functions and tools implemented outside of the classes to support various tasks.
 
-## 🛠️ Simple Data Preprocessing & Integration
-- Function Name: get_borehole_names
-  Scans directories for all borehole data files in a survey/project
-- Function Name: add_coordinates
-  Merges XYZ coordinates with BNMR measurements
-- Function Name: check_NonNumeric_columns
-  Cleans invalid entries in geology/hydrology data
-- Function Name: merge_txt_files
-  Combines project datasets for unified analysis
-
-### Geo-labeling & BNMR Data Integration of Individual Boreholes 
-- Geo-labeling the BNMR data (if geology information is available)
-- Merging all boreholes data into a unified dataframe
-  
-## 📈 Advanced Visualization Engine
-Borehole Logs (logplot())
-python
-### Generate Professional Borehole Logs 
+## 🛠️ Functions & Features
+### Within Data Class
+#### Generate Professional Borehole Logs 
 - Class Name: Data
 - Function Name: logplot
 - This feature combines:
@@ -47,17 +33,14 @@ python
   - T₂ distribution curves
   - Geology log (if available)
   - Hydraulic conductivity (if available)
+#### Geo-labeling & BNMR Data Integration of Individual Boreholes 
+- Geo-labeling the BNMR data (if geology information is available)
+- Merging all boreholes data into a unified dataframe
 
-### Geological Sections (section_plot_all())
-- Class Name: -
-- Function Name: section_plot_all
-- This feature provides:
-  - Interactive profile selection (Tkinter GUI)
-  - Topography-aware elevation scaling
-  - Automatic azimuth labeling
-  - Custom numerical or categorical variable sections (if present in the dataset)
 
-### Statistical Graphics
+### Within Statistics Class
+
+#### Statistical Graphics
 - Class Name: ???
 - Function Name: ???
 - Various statistical graphs & illustrations including:
@@ -67,7 +50,31 @@ python
   - Ternary diagrams 
   - And more...
 
-### 💧 Hydraulic Conductivity Calibration
+
+
+
+### Outside Classes / Utility Functions
+
+#### ⚙️ Simple Preprocessings & Data Integration
+- Function Name: get_borehole_names
+  Scans directories for all borehole data files in a survey/project
+- Function Name: add_coordinates
+  Merges XYZ coordinates with BNMR measurements
+- Function Name: check_NonNumeric_columns
+  Cleans invalid entries in geology/hydrology data
+- Function Name: merge_txt_files
+  Combines project datasets for unified analysis
+
+#### Geological Sections (section_plot_all())
+- Class Name: -
+- Function Name: section_plot_all
+- This feature provides:
+  - Interactive profile selection (Tkinter GUI)
+  - Topography-aware elevation scaling
+  - Automatic azimuth labeling
+  - Custom numerical or categorical variable sections (if present in the dataset)
+
+#### 💧 Hydraulic Conductivity Calibration
 - Class Name: ???
 - Function Name: ???
 - Supported Models:
@@ -77,12 +84,12 @@ python
 - Outputs: relevant plots (data biplots and validation plot), Calibrated coefficients, R², K difference factors, RMS and other common error metrics
 
 ## 🌐 Geospatial Outputs
-### 🗂 Shapefile Creation 
+#### 🗂 Shapefile Creation 
 - Class Name: ???
 - Function Name: ???
 - Exports averaged BNMR parameters per borehole/geology unit in individual shape files for spatial mapping purposes
 
-### 🌍 KML Generator (with embedded PNG logplots)
+#### 🌍 KML Generator (with embedded PNG logplots)
 - Class Name: ???
 - Function Name: ???
 - This feature provides:
@@ -96,12 +103,12 @@ bash
 pip install pandas numpy matplotlib seaborn geopandas shapely simplekml pyproj scipy
 git clone https://github.com/yourusername/dart.git
 
-📜 License
+## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
 DART transforms raw BNMR data into actionable insights through integrated geospatial, statistical, and geological analysis - enabling researchers to quantify subsurface water properties with unprecedented efficiency.
-# mentioning publications that used dart
-# maybe example or sth
+### mentioning publications that used dart
+### maybe example or sth
 
 
 
