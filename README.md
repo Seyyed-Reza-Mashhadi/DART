@@ -1,6 +1,4 @@
 # Data Analysis & Representation Toolkit (DART) for Borehole NMR Data
- <img width="1400" height="600" alt="VB-V03" src="https://github.com/user-attachments/assets/630ed34b-e852-469b-9de0-11e70bc858e0" />
-
 ## 🔍 Overview
 DART is a powerful Python toolkit designed for processing, statistical analysis, visualization, and interpretation of Borehole Nuclear Magnetic Resonance (BNMR) data from Vista Clara NMR logging systems. It takes processed/inverted NMR data product text files, and performs geospatial analysis, statistical modeling, and geological illustrations using a unified workflow for comprehensive subsurface characterization.
 
@@ -34,9 +32,15 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 | `export_kml()`             | Generates KML file with embedded PNG image of borehole logplots so that the borehole logs can be seen by hovering or selecting the borehole on Google Earth
 
 <br><br>
-*Play the gif image to see a demonstration of the generated KML file in Google Earth*
+<p align="center"><em>Example of a logplot</em></p> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/630ed34b-e852-469b-9de0-11e70bc858e0" width="900">
+</p>
 
-![KML file in Google Earth](https://github.com/user-attachments/assets/ae2f685c-63fe-41ed-8e35-c412c3095330)
+<p align="center"><em>Play the gif image to see a demonstration of the generated KML file in Google Earth</em></p> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae2f685c-63fe-41ed-8e35-c412c3095330" width="600" alt="KML file in Google Earth">
+</p>
 
 
 #### Statistics Class
@@ -55,6 +59,23 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 | `calibrate_K_estimation_models()`     | Curve fitting for improved K estimation from NMR data using Schlumberger-DOll Research (SDR), Timur-Coates (TC), and Sum of Echoes (SOE) models                 |
 | `k_calculation_in_BNMR_dataframe()`   | Using calculated coefficients from the function above and calculate K values in the BNMR dataset
 
+<br><br>
+<p align="center"><em>Examples of data illustrations using functions in Statistics class</em></p>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b03ea9ca-80e3-4f4a-9873-4920ef58374b" width="450" alt="mobile_immobile_pairplot" style="border: 2px solid black;">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/6f24067d-2316-4486-bf7e-cf6cd1a78ba3" width="400" alt="Boxplot_sand" style="border: 2px solid black;">
+    </td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c635382b-5ddc-484b-9622-5857bcd97c14" width="400">
+</p>
+
 #### Other Functions / Tools
 - **Purpose:** Standalone tools for specialized operations
 - **Input:** Varies by function
@@ -68,6 +89,12 @@ DART is a powerful Python toolkit designed for processing, statistical analysis,
 | `get_azimuth()`                    | Calculates profile orientation from coordinates       |
 | `remove_duplicates()`              | Cleans duplicate measurements in BNMR dataframe       |
 | `section_plot()`                   | Creates cross-sections of numerical or categorical variables (e.g., BNMR or geology data). Can be used interactively or with predefined coordinates. Note that there are other section plotting functions built upon this function for especific purposes                                                                           |
+
+<br><br>
+<p align="center"><em>Example of generated shape average shape files from BNMR data (the map is created in QGIS)</em></p> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/322328d4-1e96-4e73-bce8-34106dd7175d" width="400">
+</p>
 
 ## 🎓 Funding
 DART is a tool developed as part of my PhD research in Geophysics at the Hydrogeophysics Group (HGG), Department of Geoscience, Aarhus University. My PhD was supported by funding from the Independent Research Fund Denmark (grant number: 0171-00056B).
