@@ -11,7 +11,7 @@ DART (Data Analysis & Representation Toolkit) is a Python-based framework for ex
   - Professional borehole log plots with comprehensive illustration of spin-echo decay, porosity, water partitioning, relaxation time distribution, hydraulic conductivity, etc. 
   - Interactive section plotting with topography-aware scaling, capable of handling both numerical and categorical data variables
   - Statistical graphics (histograms, KDEs, box plots, pair plots, etc.)
-  - Ternary diagrams, particularly for water partitioning data analysis
+  - Ternary diagrams, particularly for water partitioning data
 
 ## 📦 Architecture
 ### Data Class
