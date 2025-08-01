@@ -110,5 +110,9 @@ DART (Data Analysis & Representation Toolkit) is a Python-based framework for ex
 DART is a tool developed as part of my PhD research in Geophysics at the Hydrogeophysics Group (HGG), Department of Geoscience, Aarhus University. My PhD was supported by funding from the Independent Research Fund Denmark (grant number: 0171-00056B).
 
 ## 📝 Related Publications
-For application cases, refer to my NMR-related publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=42SLfsYAAAAJ&view_op=list_works&sortby=pubdate).
+ - Seyyed Reza Mashhadi, Denys Grombacher, Dominik Zak, Poul Erik Lærke, Hans Estrup Andersen, Carl Christian Hoffmann, and Rasmus Jes Petersen (2024). [Borehole nuclear magnetic resonance as a promising 3D mapping tool in peatland studies](https://doi.org/10.1016/j.geoderma.2024.116814). *Geoderma*. Volume 443, 116814.
+
+ - S.R. Mashhadi, D. Grombacher, J.B. Pedersen, F. Jørgensen, T.R. Andersen, and M.P. Griffiths (2024). [Estimation of Hydraulic Conductivity Variations within Glacial Sediments at Endelave Island by Borehole NMR Data](https://doi.org/10.3997/2214-4609.202420047). In *NSG 2024 30th European Meeting of Environmental and Engineering Geophysics*.
+
+ - Seyyed Reza Mashhadi, Denys Grombacher, and M. Andy Kass (2025). [High-resolution hydraulic conductivity estimates from borehole nuclear magnetic resonance (NMR)](https://www.danishwaterforum.dk/Research/Annual-Meeting-2025/DWF%20water%20conference%20Program%20&%20Abstract%20Catalogue%202025.pdf). In *19th Danish Water Forum water research conference (DWF2025)*.
 
